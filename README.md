@@ -30,6 +30,7 @@ terraform apply
 ```
 remarque: Une étape de confirmation sera presentée, pour savoir si les éventuelles modifications apportées au code doivent être prise en compte ou non avant le déploiement.
 On pourra rajouter l'option « --auto-approve », pour approuver automatiquement, ce qui nous épargnera cette étape de confirmation.
-Mais il faut éviter l'option « --auto-approve » en production.
 <br />
+Mais il faut éviter l'option « --auto-approve » en production.
+<br /><br />
 ![image](mise-en-place-ec2_1.png)
