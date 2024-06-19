@@ -44,3 +44,6 @@ La commande pour détruire l'instance EC2 que nous venons de mettre en place est
  ```
 terraform destroy
 ```
+
+<br /><br />
+![image](ec2-suppression.png)
