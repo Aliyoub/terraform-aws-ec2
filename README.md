@@ -9,3 +9,4 @@ La commande :
 terraform validate
 ```
 nous permettra de vérifier s'il y a ou non des erreurs dans le code tf
+![image](tf-validate.png)
