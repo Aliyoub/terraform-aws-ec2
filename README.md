@@ -34,3 +34,13 @@ On pourra rajouter l'option « --auto-approve », pour approuver automatiquement
 Mais il faut éviter l'option « --auto-approve » en production.
 <br /><br />
 ![image](mise-en-place-ec2_1.png)
+
+
+### Destruction de l'instance EC2
+Les bonnes habitudes à avoir lorsqu'on travaille dans le cloud, est de détruire les ressources non indispensables. L'on pourra toujours les recréer au besoin, d'où l'importance de l'infrastructure as code (IAC).
+En effet, des ressources sont payantes tant qu'elles existent, autant les détruire si elles ne sont pas nécessaires.
+<br />
+La commande pour détruire l'instance EC2 que nous venons de mettre en place est la suivante : 
+ ```
+terraform destroy
+```
